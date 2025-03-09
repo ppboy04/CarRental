@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Jaipur</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script> 
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Car Rental Jaipur</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container" style="position: absolute; top: 0; left: 0;"></div>
+            <h2 style="color: #333;">Find the Perfect Car for Your Trip</h2>
+            <p class="hero-text" style="color: #333;">Choose your destination and book a ride instantly.</p>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking">
+        <div class="container">
+            <h2>Book Your Ride</h2>
+            <form id="booking-form">
+                <label for="destination">Enter Destination:</label>
+                <select id="destination" required>
+                    <option value="">Select a city</option>
+                    <option value="Jaipur">Jaipur</option>
+                    <option value="Udaipur">Udaipur</option>
+                    <option value="Ajmer">Ajmer</option>
+                    <option value="Jodhpur">Jodhpur</option>
+                    <option value="Kota">Kota</option>
+                </select>
+                <button type="submit" class="btn">Search Cars</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Available Cars -->
+    <section class="cars">
+        <div class="container">
+            <h2>Available Cars</h2>
+            <div id="car-list" class="car-list">
+                <!-- Cars will be displayed here based on selection -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Car Rental Jaipur. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
